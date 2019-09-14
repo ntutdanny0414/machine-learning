@@ -1,0 +1,24 @@
+-save檔為數值正規模型，使用
+from sklearn.externals import joblib
+scaler = joblib.load("scaler.save") 
+scaler.transform(...)正規化
+label_scaler.inverse_transform(...)可轉回
+1.scaler.save檔transform順序:['RH', 'StnPres', 'Temperature', 'AMB_TEMP','CH4', 'CO', 'NMHC', 'NO', 'NO2', 'NOx',
+     'O3', 'PH_RAIN', 'RAINFALL','RAIN_COND', 'PM10', 'SO2', 'THC', 'WD_HR','WIND_SPEED','WS_HR'](一定要一起轉)
+2.label_scaler.save為pm2.5的:
+  
+  
+-CNNLSTM.h5為Pm2.5模型:
+1.輸入:Index(['RH_tsub4', 'RH_tsub5', 'RH_tsub6', 'RH_tsub7', 'RH_tsub8', 'RH_tsub9',
+       'RH_tsub10', 'RH_tsub11', 'RH_tsub12', 'StnPres_tsub4',
+       ...
+       'PM2.5_tsub4', 'PM2.5_tsub5', 'PM2.5_tsub6', 'PM2.5_tsub7',
+       'PM2.5_tsub8', 'PM2.5_tsub9', 'PM2.5_tsub10', 'PM2.5_tsub11',
+       'PM2.5_tsub12'](照順序)
+  shape:(1, 1, 189)項
+2.輸出:PM2.5
+使用
+from keras.models import load_model
+model = load_model('CNNLSTM.h5')
+model.predict(...)
+https://blog.gtwang.org/programming/keras-save-and-load-model-tutorial/
