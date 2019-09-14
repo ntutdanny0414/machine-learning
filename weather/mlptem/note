@@ -1,0 +1,15 @@
+一樣，正規化分開了，
+
+temMLP.h5
+輸入:['StnPres3_tsub7', 'StnPres3_tsub8', 'StnPres3_tsub9', 'StnPres3_tsub10',
+       'Temperature4_tsub7', 'Temperature4_tsub8', 'Temperature4_tsub9',
+       'Temperature4_tsub10', 'T Max5_tsub7', 'T Max5_tsub8', 'T Max5_tsub9',
+       'T Max5_tsub10', 'T Min6_tsub7', 'T Min6_tsub8', 'T Min6_tsub9',
+       'T Min6_tsub10', 'RH7_tsub7', 'RH7_tsub8', 'RH7_tsub9', 'RH7_tsub10',
+       'WS8_tsub7', 'WS8_tsub8', 'WS8_tsub9', 'WS8_tsub10', 'WD9_tsub7',
+       'WD9_tsub8', 'WD9_tsub9', 'WD9_tsub10', 'Precp10_tsub7',
+       'Precp10_tsub8', 'Precp10_tsub9', 'Precp10_tsub10', 'SunShine11_tsub7',
+       'SunShine11_tsub8', 'SunShine11_tsub9', 'SunShine11_tsub10',
+        'ObsTimeMonth1','latitude12', 'altitude13']
+  shape:(1, 1, 39)
+輸出:['Temperature4']        
