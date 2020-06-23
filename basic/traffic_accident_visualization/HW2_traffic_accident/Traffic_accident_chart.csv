@@ -1,0 +1,100 @@
+column,Code,Item,Note
+Processing_class,1,Class A1 traffic accident,A traffic accident that caused people to die on the spot or within 24 hours.
+Processing_class,2,Class A2 traffic accident,A traffic accident that caused injury or death over 24 hours.
+Vehicle_type,A01,Public bus,Large buses
+Vehicle_type,A02,Private bus,
+Vehicle_type,A03,Public passenger transport,
+Vehicle_type,A04,Private passenger transport,
+Vehicle_type,A05,Tour bus,
+Vehicle_type,A06,Self-use coach,
+Vehicle_type,A11,Business truck,big truck
+Vehicle_type,A12,Own truck,
+Vehicle_type,A21,Fully connected car for business,
+Vehicle_type,A22,Self-use fully-connected car,
+Vehicle_type,A31,Semi-connected car for business,
+Vehicle_type,A32,Self-use semi-connected car,
+Vehicle_type,A41,Towing vehicle for business,
+Vehicle_type,A42,Self-use towing vehicle,
+Vehicle_type,B01,taxi,taxi
+Vehicle_type,B02,Rental car,small truck
+Vehicle_type,B03,Passenger car,
+Vehicle_type,B11,Minivan for business,small truck
+Vehicle_type,B12,Self-use minivan,
+Vehicle_type,C01,Large heavy motorcycle 1 (550C.C. and above),motorcycle
+Vehicle_type,C02,Large and heavy motorcycle 2 (250-550C.C.),
+Vehicle_type,C03,Ordinary heavy motorcycle,
+Vehicle_type,C04,Ordinary light motorcycle,
+Vehicle_type,D01,Coach,military vehicle
+Vehicle_type,D02,Truck,
+Vehicle_type,D03,Small car,
+Vehicle_type,E01,ambulance,Special vehicle
+Vehicle_type,E02,Fire truck,
+Vehicle_type,E03,Police car,
+Vehicle_type,E04,Engineering vehicle,
+Vehicle_type,E05,Other special vehicles,
+Vehicle_type,F01,Bicycle,bicycle
+Vehicle_type,F02,Electric assisted bicycle,
+Vehicle_type,F03,electric bicycle,
+Vehicle_type,F04,Rickshaw,local
+Vehicle_type,F05,Animal car,
+Vehicle_type,F06,Other local trains,
+Vehicle_type,G01,Assembled car,Other cars
+Vehicle_type,G02,Farming vehicle (or machinery),
+Vehicle_type,G03,Power machinery,Power machinery
+Vehicle_type,G04,Trailer (rack),Other cars
+Vehicle_type,G05,train,
+Vehicle_type,G06,Other cars,
+Vehicle_type,H01,pedestrian,pedestrian
+Vehicle_type,H02,passenger,passenger
+Vehicle_type,H03,other people,other people
+Sex,1,Male,
+Sex,2,Female,
+Sex,3,"Animals, stacks",
+Sex,4,The escape from the accident has not been detected,
+Weather,1,rainstorm,
+Weather,2,Gale,
+Weather,3,Sandstorm,
+Weather,4,Fog or smoke,
+Weather,5,snow,
+Weather,6,rain,
+Weather,7,cloudy,
+Weather,8,sunny,
+Road_pattern,1,With interrupter,Level crossing
+Road_pattern,2,No interrupter,
+Road_pattern,3,Three forks,Crossroads
+Road_pattern,4,Four forks,
+Road_pattern,5,Multi-branch,
+Road_pattern,6,tunnel,One-way section
+Road_pattern,7,Underpass,
+Road_pattern,8,bridge,
+Road_pattern,9,Culvert,
+Road_pattern,10,Elevated road,
+Road_pattern,11,Curved road and nearby,
+Road_pattern,12,Slope,
+Road_pattern,13,Alley,
+Road_pattern,14,Straight road,
+Road_pattern,15,Other,
+Road_pattern,16,Ring,Circle Plaza
+Road_pattern,17,Square,
+Accident_location,1,Inside the intersection,Crossroads
+Accident_location,2,Near the intersection,
+Accident_location,3,Locomotive waiting area,
+Accident_location,4,Locomotive parking area,
+Accident_location,5,Traffic island (including slotted line),Section
+Accident_location,6,U turn lane,
+Accident_location,7,Fast lane,
+Accident_location,8,Slow lane,
+Accident_location,9,General lanes (not divided into fast and slow lanes),
+Accident_location,10,Bus lane,
+Accident_location,11,Locomotive lane,
+Accident_location,12,Locomotive priority,
+Accident_location,13,"Road shoulder, curb",
+Accident_location,14,Acceleration lane,Interchange
+Accident_location,15,Deceleration lane,
+Accident_location,16,Straight ramp,
+Accident_location,17,Ring ramp,
+Accident_location,18,Pedestrian crossing,Other
+Accident_location,19,Near the crossing,
+Accident_location,20,Sidewalk,
+Accident_location,21,Near the toll gate,
+Accident_location,22,Other,
